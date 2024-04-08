@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  width: 30%;
+  margin: 3% auto 5% auto;
+}
+
+p {
+  font-size: 25px;
+  /* padding: 2px 0; */
+  margin: 5px 0;
+  text-align: start;
+  background-color: #820055;
+  color: white;
+}

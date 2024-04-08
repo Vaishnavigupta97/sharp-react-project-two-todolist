@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.formParent {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* /* width: 30%; */
+    margin: 5% auto;
+    padding: 2%;
+    text-align: start;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    margin: 2% 0;
+}
+
+.invalid input {
+    border-color: red;
+    background: #ffd7d7;
+}
+
+.invalid label {
+    color: red;
+}
+
+.btnValid {
+    background-color: #820055;
+    padding: 2%;
+    border: none;
+    margin: 2% 0;
+    color: white;
+    font-size: 15px;
+}
+
+.btnInvalid {
+    background-color: red;
+}
